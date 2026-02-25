@@ -1,5 +1,6 @@
 # devops-satc
 - O que é Devops e SRE
+
 SRE (Site Reliability Engineering) e DevOps são práticas focadas em eficiência e automação, onde DevOps é uma cultura que une times de desenvolvimento e operações para acelerar entregas, enquanto SRE é uma implementação prática dessa cultura criada pelo Google, focada especificamente na confiabilidade, escalabilidade e performance de sistemas em produção.
 
 DevOps (Cultura/Filosofia): Quebra barreiras entre equipes de desenvolvimento e operações, focando em automação (CI/CD), agilidade, colaboração e responsabilidade compartilhada para colocar software em produção mais rápido.
