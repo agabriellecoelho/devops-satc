@@ -14,3 +14,21 @@ Em resumo: DevOps diz o que fazer (integrar Dev e Ops), e SRE diz como fazer (us
 
 Referência: 
 Sobrinho de TI. O que é SRE e por que ele é diferente de DevOps? (Explicação prática). YouTube,  14 de dez. de 2025. Disponível em: https://www.youtube.com/watch?v=s1HhAw7jX_s&t=151s. Acesso em: 24 de fev. de 2026.
+
+# tela
+- Controle de Gastos Diário
+Uma tela única onde a pessoa pode:
+ Adicionar um gasto (nome + valor)
+ Ver a lista de gastos
+ Remover um gasto
+ Ver o total gasto automaticamente
+
+🚀 Por que essa ideia é boa?
+É simples
+É real (todo mundo entende)
+Mostra que você sabe usar estado
+Dá pra evoluir depois:
+salvar no localStorage
+filtrar por data
+separar em componentes
+colocar gráfico
