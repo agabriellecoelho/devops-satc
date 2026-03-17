@@ -12,7 +12,7 @@ jobs:
       contents: read
     steps:
       - name: Chekout
-        uses: actions/chekout@v4
+        uses: actions/checkout@v4
 
 
 
