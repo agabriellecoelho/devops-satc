@@ -1,10 +1,10 @@
 FROM node:20-alpine
 
-WORKDIR /APP
+WORKDIR /app
 
 COPY . .
 
-WORKDIR /APP/controleGastos
+WORKDIR /app/controleGastos
 
 RUN NPM INSTALL
 RUN NPM Run build
