@@ -3,7 +3,7 @@ name: Docker Image Check
 on:
   push:
     branches: ["develop"]
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   docker-check:
