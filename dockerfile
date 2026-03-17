@@ -6,8 +6,8 @@ COPY . .
 
 WORKDIR /app/controleGastos
 
-RUN NPM INSTALL
-RUN NPM Run build
+RUN npm install
+RUN npm run build
 
 EXPOSE 4173
-CMD ["NPM","RUN","PREVIEW"]
+CMD ["npm", "run","preview"]
