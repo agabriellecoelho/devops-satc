@@ -4,6 +4,8 @@ WORKDIR /APP
 
 COPY . .
 
+WORKDIR /APP/controleGastos
+
 RUN NPM INSTALL
 RUN NPM Run build
 
