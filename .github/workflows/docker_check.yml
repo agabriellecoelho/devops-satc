@@ -35,4 +35,4 @@ jobs:
         run: docker build -t agabriellecoelho/devops-satc:0.0.1 .
 
       - name: push
-        run: docker push docker.io/agabriellecoelho/devops-satc:0.0.1
+        run: docker push docker.io/agabrielle/devops-satc:0.0.1
