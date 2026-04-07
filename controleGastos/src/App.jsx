@@ -11,7 +11,7 @@ export default function App() {
     const novoGasto = {
       id: Date.now(),
       nome,
-      valor: parseFloat(valor),
+      valor: Number.parseFloat(valor),
     };
 
     setGastos([...gastos, novoGasto]);
