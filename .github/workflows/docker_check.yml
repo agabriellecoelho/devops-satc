@@ -14,6 +14,17 @@ jobs:
       - name: Chekout
         uses: actions/checkout@v4
 
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v2
+        with:
+          args: >
+            -Dsonar.projectKey=USUARIO_satc-devops
+            -Dsonar.organization=USUARIO
+            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.sources=.
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -22,3 +33,6 @@ jobs:
 
       - name: build
         run: docker build -t agabriellecoelho/devops-satc:0.0.1 .
+
+      - name: push
+        run: docker push docker.io/agabriellecoelho/devops-satc:0.0.1
