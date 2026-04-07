@@ -6,7 +6,7 @@ COPY . .
 
 WORKDIR /app/controleGastos
 
-RUN npm install
+RUN npm install \
 && npm run build
 
 EXPOSE 4173
