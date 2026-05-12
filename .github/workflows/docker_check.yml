@@ -1,4 +1,4 @@
-name: Docker Image Check
+name: Build
 
 on:
     push:
